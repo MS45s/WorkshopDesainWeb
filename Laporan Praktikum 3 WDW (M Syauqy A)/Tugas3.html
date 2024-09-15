@@ -4,11 +4,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tugas 3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo img {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+        }
+
+
+        .navbar {
+            display: flex;
+            position: fixed;
+            top: 20px;
+            left: 60px;
+            padding: 10px 20px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: blue;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover {
+            color: darkblue;
+            text-decoration: underline;
+        }
+
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+            display: flex;
+            gap: 7px;
+        }
+
+        .box {
+            width: auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            width: auto;
+            display: block;
+        }
+
+        .comment-info {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .calendar-info {
+            display: inline-flex;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Portofolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Shortcodes</a></li>
+        </ul>
+    </nav>
+    <div class="logo">
+        <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/Logo_PENS.png" alt="PENS Logo" width="50">
+    </div>
+    <div class="container">
+        <div class="box">
+            <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/blooberg.jpg" alt="Image 1">
+            <h3>Bloomberg smart cities; change-makers economic security</h3>
+            <p><span class="calendar-info">
+                    <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/calendar.png" alt="calendar-info"
+                        style="width: 7%;">13 Jun 2021</span>
+                <span class="comment-info">
+                    <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/comment.webp" alt="Comment"
+                        style="width: 7%;">53</span>
+            </p>
+            <p>Prevention effect, advocate dialogue rural development lifting people up community civil society.
+                Catalyst, grantees leverage.</p>
+        </div>
 
+        <div class="box">
+            <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/medicine.png" alt="Image 2">
+            <h3>Medicine new approaches communities, outcomes partnership</h3>
+            <p><span class="calendar-info">
+                    <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/calendar.png" alt="calendar-info"
+                        style="width: 7%;">24 Feb 2021</span>
+                <span class="comment-info">
+                    <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/comment.webp" alt="Comment"
+                        style="width: 7%;">17</span>
+            </p>
+            <p>Cross-agency coordination clean water rural, promising development turmoil inclusive education
+                transformative community.</p>
+        </div>
+
+
+        <div class="box">
+            <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/image3.webp" alt="Image 3">
+            <h3>Significant altruism planned giving insurmountable challenges liberal</h3>
+            <p><span class="calendar-info">
+                    <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/calendar.png" alt="calendar-info"
+                        style="width: 7%;">30 Dec 2021</span>
+                <span class="comment-info">
+                    <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/comment.webp" alt="Comment"
+                        style="width: 7%;">13</span>
+            </p>
+            <p>Micro-finance; vaccines peaceful contribution citizens of change generosity. Measures design thinking
+                accelerate progress medical initiative.</p>
+        </div>
+
+        <div class="box">
+            <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/image4.webp" alt="Image 4">
+            <h3>Compassion conflict resolution, progressive; tackle</h3>
+            <p><span class="calendar-info">
+                    <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/calendar.png" alt="calendar-info"
+                        style="width: 7%;">15 Jan 2021</span>
+                <span class="comment-info">
+                    <img src="/Laporan Praktikum 3 WDW (M Syauqy A)/comment.webp" alt="Comment"
+                        style="width: 7%;">54</span>
+            </p>
+            <p>Community health workers best practices, effectiveness meaningful work The Elders fairness. Our ambitions
+                local solutions globalization.</p>
+        </div>
+    </div>
 </body>
 
 </html>
